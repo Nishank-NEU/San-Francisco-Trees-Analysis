@@ -1,0 +1,499 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="0" y="0" width="954" height="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 19</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="24" y="106" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>1000</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>65001</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Street_Tree_List.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="TreeID" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="qLegalStatus" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="qSpecies" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="qAddress" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="SiteOrder" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="qSiteInfo" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="PlantType" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="qCaretaker" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="qCareAssistant" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="PlantDate" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="DBH" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="PlotSize" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="PermitNotes" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="XCoord" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="YCoord" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Latitude" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Longitude" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Location" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Fire Prevention Districts" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Police Districts" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Supervisor Districts" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Zip Codes" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Neighborhoods (old)" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Analysis Neighborhoods" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="138" y="86" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="282" y="67" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="TreeID" selected="True" />
+                <Field field="qLegalStatus" selected="True" />
+                <Field field="qSpecies" selected="True" />
+                <Field field="qAddress" selected="True" />
+                <Field field="SiteOrder" selected="True" />
+                <Field field="qSiteInfo" selected="True" />
+                <Field field="PlantType" selected="True" />
+                <Field field="qCaretaker" selected="True" />
+                <Field field="qCareAssistant" selected="True" />
+                <Field field="PlantDate" selected="True" />
+                <Field field="DBH" selected="True" />
+                <Field field="PlotSize" selected="True" />
+                <Field field="PermitNotes" selected="True" />
+                <Field field="XCoord" selected="True" />
+                <Field field="YCoord" selected="True" />
+                <Field field="Latitude" selected="True" />
+                <Field field="Longitude" selected="True" />
+                <Field field="Location" selected="True" />
+                <Field field="Fire Prevention Districts" selected="True" />
+                <Field field="Police Districts" selected="True" />
+                <Field field="Supervisor Districts" selected="True" />
+                <Field field="Zip Codes" selected="True" />
+                <Field field="Neighborhoods (old)" selected="True" />
+                <Field field="Analysis Neighborhoods" selected="True" />
+                <Field field="*Unknown" selected="False" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="TreeID" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="qLegalStatus" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="qSpecies" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="qAddress" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="SiteOrder" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="qSiteInfo" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="PlantType" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="qCaretaker" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="qCareAssistant" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="PlantDate" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="DBH" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="PlotSize" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="PermitNotes" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="XCoord" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="YCoord" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Latitude" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Longitude" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Location" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Fire Prevention Districts" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Police Districts" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Supervisor Districts" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Zip Codes" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Neighborhoods (old)" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Analysis Neighborhoods" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="390" y="49" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="378" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>TreeID</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>
+              </RootName>
+              <Delimeters value="," />
+              <NumFields value="3" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="474" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="582" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="TreeID" selected="True" />
+                <Field field="qLegalStatus" selected="True" />
+                <Field field="qSpecies" selected="True" />
+                <Field field="qAddress" selected="True" />
+                <Field field="SiteOrder" selected="True" />
+                <Field field="qSiteInfo" selected="True" />
+                <Field field="PlantType" selected="True" />
+                <Field field="qCaretaker" selected="True" />
+                <Field field="qCareAssistant" selected="True" />
+                <Field field="PlantDate" selected="True" />
+                <Field field="DBH" selected="True" />
+                <Field field="PlotSize" selected="True" />
+                <Field field="PermitNotes" selected="True" />
+                <Field field="XCoord" selected="True" />
+                <Field field="YCoord" selected="True" />
+                <Field field="Latitude" selected="True" />
+                <Field field="Longitude" selected="True" />
+                <Field field="Location" selected="True" />
+                <Field field="Fire Prevention Districts" selected="True" />
+                <Field field="Police Districts" selected="True" />
+                <Field field="Supervisor Districts" selected="True" />
+                <Field field="Zip Codes" selected="True" />
+                <Field field="Neighborhoods (old)" selected="True" />
+                <Field field="Analysis Neighborhoods" selected="True" />
+                <Field field="1" selected="True" />
+                <Field field="2" selected="True" />
+                <Field field="3" selected="True" />
+                <Field field="*Unknown" selected="False" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="TreeID" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="qLegalStatus" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="qSpecies" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="qAddress" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="SiteOrder" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="qSiteInfo" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="PlantType" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="qCaretaker" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="qCareAssistant" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="PlantDate" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="DBH" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="PlotSize" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="PermitNotes" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="XCoord" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="YCoord" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Latitude" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Longitude" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Location" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Fire Prevention Districts" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Police Districts" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Supervisor Districts" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Zip Codes" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Neighborhoods (old)" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field name="Analysis Neighborhoods" size="1000" source="File: C:\Users\Nishank\Desktop\San Fransisco Trees dataset\Street_Tree_List.csv" type="V_WString" />
+                <Field description="TextToColumns: Parsed from TreeID" name="1" size="1000" source="TextToColumns: Parsed from TreeID" type="V_WString" />
+                <Field description="TextToColumns: Parsed from TreeID" name="2" size="1000" source="TextToColumns: Parsed from TreeID" type="V_WString" />
+                <Field description="TextToColumns: Parsed from TreeID" name="3" size="1000" source="TextToColumns: Parsed from TreeID" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings>
+            <Position x="738" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">""</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="870" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+            <Position x="702" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>TreeID</Field>
+              <RegExExpression value="" />
+              <CaseInsensitve value="True" />
+              <Method>Replace</Method>
+              <Replace expression="">
+                <CopyUnmatched value="True" />
+              </Replace>
+              <ParseSimple>
+                <SplitToRows value="False" />
+                <RootName>TreeID</RootName>
+                <NumFields value="3" />
+                <ErrorHandling>Warn</ErrorHandling>
+              </ParseSimple>
+              <ParseComplex />
+              <Match>
+                <Field>TreeID_Matched</Field>
+                <ErrorUnmatched value="False" />
+              </Match>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="846" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output26" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Copy of Alteryx Data Preparation &amp; Data Profiling Intro using San Fransisco Trees_dave.nish</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="3edb2d23-94a6-41e5-b510-553c58a31627" />
+      <Telemetry>
+        <PreviousWorkflowId value="68023ba9-4d48-4540-87dd-70c8286b52ab" />
+        <OriginWorkflowId value="a28e74a5-ccb2-40fa-ba70-5aee230ae7b2" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
